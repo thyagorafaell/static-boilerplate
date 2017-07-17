@@ -1,0 +1,19 @@
+* {
+  @include box-sizing(border-box);
+
+  &:before,  &:after {
+    @include box-sizing(border-box);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}

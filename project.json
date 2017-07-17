@@ -1,0 +1,48 @@
+{
+  "js": {
+    "src": {
+      "file": "src/js/index.js",
+      "path": "src/js"
+    },
+    "dist": {
+      "file": "app.js",
+      "path": "dist"
+    }
+  },
+  "css": {
+    "src": {
+      "file": "src/css/index.scss",
+      "path": "src/css"
+    },
+    "dist": {
+      "file": "app.css",
+      "path": "dist"
+    }
+  },
+  "html": {
+    "src": {
+      "file": "src/views/index.pug",
+      "path": "src/views"
+    },
+    "dist": {
+      "file": "index.html",
+      "path": "dist"
+    }
+  },
+  "assets": {
+    "src": {
+      "path": "src/assets"
+    },
+    "dist": {
+      "path": "dist"
+    }
+  },
+  "code": {
+    "src": {
+      "path": "src"
+    },
+    "dist": {
+      "path": "dist"
+    }
+  }
+}

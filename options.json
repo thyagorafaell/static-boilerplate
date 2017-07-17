@@ -1,0 +1,36 @@
+{
+  "csso": {
+    "comments": false
+  },
+  "autoprefixer": {
+    "browsers": ["last 2 versions"],
+    "cascade": false
+  },
+  "htmlmin": {
+    "collapseBooleanAttributes": true,
+    "collapseWhitespace": true,
+    "minifyJS": true,
+    "removeAttributeQuotes": true,
+    "removeComments": true,
+    "removeScriptTypeAttributes": true,
+    "removeStyleLinkTypeAttributes": true,
+    "useShortDoctype": true,
+    "sortAttributes": true,
+    "sortClassName": true
+  },
+  "uglify": {},
+  "copy": {
+    "prefix": 1
+  },
+  "optipng": {
+    "optimizationLevel": 3
+  },
+  "svgo": {
+    "plugins": [{
+      "removeViewBox": true
+    }]
+  },
+  "pug": {
+    "compileDebug": false
+  }
+}
